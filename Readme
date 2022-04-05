@@ -1,0 +1,8 @@
+Les Informations concernant la base de données se trouve dans le dossier inc le fichier nommée config.php
+
+la base de données se nomme : btsform
+
+vous devers creer une table  appelé :  users
+
+cette syntaxe se trouve dans le fichier config.php  
+ $bdd = new PDO('mysql:host=localhost;dbname=btsform', 'mot de passe serveur ', 'nom utilisateur');
